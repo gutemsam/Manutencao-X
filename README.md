@@ -1,29 +1,71 @@
 # Manutencao-X
-  O aplicativo Manuteção_X foi construído com a ferramenta AppSheet. O AppSheet permite um rápido desenvolvimento de aplicativos numa abordagem lowcost. Para criarmos uma aplicação no AppSheet o primeiro passo é definir um DataBase. As figuras 1 e 2 apresentam como acessar a plataforma e como criar um Database.
-Configuração do Aplicativo no AppSheet
 
-Configuração Inicial: Após a importação do banco de dados, o AppSheet gerou automaticamente uma interface básica para o aplicativo. Essa interface foi personalizada para atender às necessidades específicas do Manutenção_X.
-Criação de Formulários de Cadastro: Formulários dinâmicos foram configurados para permitir o cadastro de novos equipamentos e manutenções. Os formulários incluíram validações, como a obrigatoriedade de preenchimento de campos essenciais.
-Visualização dos Dados: Configuramos diferentes modos de exibição, como listas e grades, para facilitar a navegação e consulta dos dados armazenados.
-  Personalização da Interface
-Adição de Abas e Filtros: Foram criadas abas específicas para facilitar o acesso às informações:
-Equipamentos Cadastrados: Uma listagem de todos os equipamentos registrados no sistema.
-Manutenções Realizadas: Uma visão consolidada de todas as manutenções concluídas, com detalhes sobre o tipo de serviço, data e setor.
-Solicitações de Manutenção: Dividida em sub-abas que categorizam os serviços em "Próximos", "Em Espera" e "Atendidos".
-Customização Visual: Ícones e cores foram personalizados para diferenciar o Manutenção_X de outros aplicativos. Cada aba recebeu uma cor específica, e o layout foi ajustado para uma navegação intuitiva.
-  Implementação de Funcionalidades Específicas
-Automação de Notificações: Criamos uma automação que envia notificações por e-mail sempre que a data de próxima manutenção coincide com a data atual. Isso foi configurado na seção de automações do AppSheet e validado com testes.
-Filtros Avançados: Foram configurados filtros para a exibição de manutenções com base em:
-Serviço realizado.
-Data prevista ou realizada.
-Observações.
-Identificação do equipamento.
-Cadastro Dinâmico: O sistema permite que novos equipamentos sejam adicionados diretamente pelo cliente, o que amplia a escalabilidade do aplicativo.
-  Testes e Validação
-Teste com Dados Simulados: Foram realizados testes para verificar se o aplicativo funcionava conforme o planejado. Dados simulados de manutenção foram inseridos para avaliar a consistência das notificações, a funcionalidade dos filtros e a precisão dos registros.
-Feedback Inicial: Técnicos e gestores forneceram feedback sobre usabilidade e interface, permitindo ajustes nas funcionalidades e no design.
-  Publicação e Uso Prático
-O aplicativo foi finalizado e está pronto para uso na gestão de manutenção de equipamentos de maneira geral. A funcionalidade de listagem de serviços realizados, com detalhes completos, garante rastreabilidade, enquanto a organização por setores e tipos de serviço oferece uma visão clara para os gestores.
+## Descrição
+
+O aplicativo **Manuteção_X** foi desenvolvido utilizando a plataforma **AppSheet**, que permite o rápido desenvolvimento de aplicativos com uma abordagem de baixo custo. Este projeto foi criado para facilitar a gestão de manutenção de equipamentos de maneira prática e eficiente. O primeiro passo foi definir um banco de dados (Database), que serve como base para o armazenamento de informações essenciais.
+
+---
+
+## Configuração do Aplicativo no AppSheet
+
+### Configuração Inicial
+Após a importação do banco de dados, o **AppSheet** gerou automaticamente uma interface básica para o aplicativo. Essa interface foi personalizada para atender às necessidades específicas do **Manutenção_X**.
+
+### Criação de Formulários de Cadastro
+Foram configurados formulários dinâmicos que permitem o cadastro de novos equipamentos e manutenções. Esses formulários incluem validações, como a obrigatoriedade de preenchimento de campos essenciais.
+
+### Visualização dos Dados
+Configurações de diferentes modos de exibição, como listas e grades, foram implementadas para facilitar a navegação e consulta das informações armazenadas.
+
+---
+
+## Personalização da Interface
+
+### Abas e Filtros
+Foram criadas abas específicas para organizar as informações de maneira intuitiva:
+- **Equipamentos Cadastrados**: Listagem de todos os equipamentos registrados no sistema.
+- **Manutenções Realizadas**: Visão consolidada das manutenções concluídas, com detalhes sobre o tipo de serviço, data e setor.
+- **Solicitações de Manutenção**: Subdividida em:
+  - "Próximos": Manutenções programadas.
+  - "Em Espera": Manutenções aguardando execução.
+  - "Atendidos": Manutenções já realizadas.
+
+### Customização Visual
+Ícones e cores foram ajustados para diferenciar o **Manutenção_X** de outros aplicativos. Cada aba recebeu uma cor específica, e o layout foi otimizado para uma navegação intuitiva.
+
+---
+
+## Implementação de Funcionalidades Específicas
+
+### Automação de Notificações
+Foi configurada uma automação que envia notificações por e-mail sempre que a data de próxima manutenção coincide com a data atual. Essa funcionalidade foi validada com testes práticos.
+
+### Filtros Avançados
+Filtros foram configurados para exibir informações com base em critérios como:
+- **Serviço realizado**.
+- **Data prevista ou realizada**.
+- **Observações**.
+- **Identificação do equipamento**.
+
+### Cadastro Dinâmico
+O sistema permite que novos equipamentos sejam adicionados diretamente pelos clientes, ampliando a escalabilidade e personalização do aplicativo.
+
+---
+
+## Testes e Validação
+
+### Teste com Dados Simulados
+Foram realizados testes utilizando dados simulados para verificar a consistência das notificações, a funcionalidade dos filtros e a precisão dos registros.
+
+### Feedback Inicial
+Orientadores forneceram feedback sobre a usabilidade e interface do aplicativo, o que permitiu ajustes e melhorias antes da versão final.
+
+---
+
+## Publicação e Uso Prático
+
+O **Manutenção_X** está finalizado e pronto para uso na gestão de manutenção de equipamentos. A funcionalidade de **listagem de serviços realizados**, com detalhes completos, garante rastreabilidade e organização. Além disso, a estrutura do aplicativo por setores e tipos de serviço oferece uma visão clara para os gestores, contribuindo para uma gestão mais eficiente e integrada.
+
 
 ![2024-12-17 (5)](https://github.com/user-attachments/assets/fff82e93-caee-4fda-a3a8-95efde0fcdae)
 
